@@ -24,7 +24,7 @@ import org.springframework.security.oauth2.provider.token.store.JdbcTokenStore;
  */
 @Configuration
 @EnableResourceServer
-public class Oauth2ResourceServerConfiguration extends ResourceServerConfigurerAdapter {
+public class Oauth2ResourceServerConfig extends ResourceServerConfigurerAdapter {
 	
 	@Autowired private DataSource dataSource;
 	

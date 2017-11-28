@@ -1,0 +1,14 @@
+server:
+  port: 8081
+  context-path: /ngx-admin-server
+spring:
+  application:
+    name: ngx-admin-server
+  datasource:
+    url: jdbc:mysql://localhost/ngx_ds?createDatabaseIfNotExist=true
+    username: root
+    password: admin123
+    driver-class-name: com.mysql.jdbc.Driver
+logging:
+  level:
+    org: INFO
